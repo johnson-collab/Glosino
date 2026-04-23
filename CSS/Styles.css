@@ -1,1 +1,51 @@
+body {
+  background: #0a0a0a;
+  color: #fff;
+  font-family: Arial;
+}
 
+.sidebar {
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  background: #111;
+}
+
+.sidebar a {
+  display: block;
+  padding: 15px;
+  color: #0ff;
+}
+
+.topbar {
+  margin-left: 200px;
+  padding: 10px;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+button {
+  background: #0ff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
